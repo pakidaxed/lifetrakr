@@ -171,6 +171,10 @@ ul.plans-list {
     background-color: #ff698d;
 }
 
+.text-main {
+    color: #7d71d3;
+}
+
 .text-second {
     color: #ff698d;
 }
@@ -238,4 +242,41 @@ ul.plans-list {
 .members-social a:hover {
     text-decoration: none;
     color: #7d71d3;
+}
+
+.testimonials {
+    padding: 100px 0;
+    background: url(http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-overlay-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h5 {
+    color: #5e5e5e;
+}
+
+.testimonials p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+}
+
+.testimonial-box {
+    width: 75%;
+    height: 280px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    padding: 50px 300px 30px 30px;
+}
+
+.testimonial-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ratings {
+    font-size: 25px !important;
 }
