@@ -174,3 +174,15 @@ ul.plans-list {
 .text-second {
     color: #ff698d;
 }
+
+.download {
+    background: url(http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/desk-bg.jpg) fixed no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    margin-top: 50px;
+}
+
+.img-overlap {
+    position: absolute;
+    top: -245px;
+}
