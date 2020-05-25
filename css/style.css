@@ -13,7 +13,7 @@ body {
 .top-nav {
     background-color: #7d71d3;
     padding: 15px;
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 3px 10 0 rgba(0, 0, 0, 0.5) !important;
     font-size: 12px;
     font-weight: 400;
 }
@@ -60,7 +60,7 @@ body {
 
 .card {
     padding: 35px;
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
     border: none;
     margin-bottom: 30px;
     border-radius: 0;
@@ -262,18 +262,18 @@ h5 {
 }
 
 .testimonial-box {
+    border-radius: 5px;
     width: 75%;
     height: 280px;
     background-color: white;
     color: black;
-    border-radius: 5px;
     position: relative;
     padding: 50px 300px 30px 30px;
 }
 
 .testimonial-img {
-    position: absolute;
     bottom: 0;
+    position: absolute;
     right: 0;
 }
 
@@ -282,9 +282,9 @@ h5 {
 }
 
 .subscribe {
-    padding: 100px 0;
     background: url(http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/elipse-bg-two.png) no-repeat;
     background-position: center;
+    padding: 100px 0;
 }
 
 .subscribe p {
@@ -292,20 +292,22 @@ h5 {
 }
 
 .subscribe .input-group {
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 .subscribe input {
-    padding: 30px;
     border: none;
+    padding: 30px;
 }
 
 .subscribe button {
-    border: 1px solid #7063cf;
     background-color: #7d71d3;
-    padding: 0 40px;
+    border: 1px solid #7063cf;
     border-left: none;
     color: white;
+    padding: 0 40px;
+
+
 }
 
 .subscribe button:hover {
