@@ -191,3 +191,51 @@ ul.plans-list {
     padding: 150px 0 100px 0;
     background-color: #f8f8f8;
 }
+
+.team {
+    padding: 100px 0;
+    background: url(http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/shape-02-bg.png) no-repeat;
+    background-position: center;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sm-text {
+    font-size: 14px;
+}
+
+.progress {
+    margin-top: 0;
+    padding-top: 0;
+    width: 80%;
+    height: 7px !important;
+}
+
+.progress-container span {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 15px;
+}
+
+.members-social a {
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    color: #999999;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-social a:hover {
+    text-decoration: none;
+    color: #7d71d3;
+}
