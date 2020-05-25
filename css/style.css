@@ -255,7 +255,7 @@ h5 {
     color: #5e5e5e;
 }
 
-.testimonials p {
+.testimonial-box p {
     font-size: 14px;
     line-height: 30px;
     color: #999999;
@@ -279,4 +279,40 @@ h5 {
 
 .ratings {
     font-size: 25px !important;
+}
+
+.subscribe {
+    padding: 100px 0;
+    background: url(http://demo.themefisher.com/themefisher/lifetrakr/images/backgrounds/elipse-bg-two.png) no-repeat;
+    background-position: center;
+}
+
+.subscribe p {
+    font-size: 14px;
+}
+
+.subscribe .input-group {
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe input {
+    padding: 30px;
+    border: none;
+}
+
+.subscribe button {
+    border: 1px solid #7063cf;
+    background-color: #7d71d3;
+    padding: 0 40px;
+    border-left: none;
+    color: white;
+}
+
+.subscribe button:hover {
+    background-color: #7d71d3;
+    border: 1px solid #7063cf;
+}
+
+.subscribe .text-spacing {
+    letter-spacing: .1em;
 }
