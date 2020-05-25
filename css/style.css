@@ -186,3 +186,8 @@ ul.plans-list {
     position: absolute;
     top: -245px;
 }
+
+.counters {
+    padding: 150px 0 100px 0;
+    background-color: #f8f8f8;
+}
