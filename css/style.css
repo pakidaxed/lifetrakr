@@ -1,11 +1,14 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-
+.bg-main {
+    background-color: #7d71d3;
+    color: white !important;
+}
 .top-nav {
     background-color: #7d71d3;
     padding: 15px;
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5) !important;
     font-size: 12px;
     font-weight: 400;
 }
@@ -35,4 +38,27 @@ body {
 .hero-bg h5 {
     color: white;
     margin-bottom: 60px;
+}
+.second-bg {
+    background: url(http://demo.themefisher.com/themefisher/lifetrakr//images/backgrounds/elipse-bg.png) no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.second-bg p {
+    font-size: 14px;
+    line-height: 30px;
+}
+.card {
+    padding: 35px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 0;
+    color: #5e5e5e;
+
+}
+.card-icon {
+    color: #7d71d3;
+    font-size: 50px;
+    text-align: center;
 }
